@@ -1,0 +1,1 @@
+Enquanto o teste unitário é utilizado para unidades isoladas de código, o teste funcional é utilizado para as funcionalidades de acordo com os requisitos do usuário. Além disso, o custo do teste de unidade é mais baixo que o custo de um teste funcional.
