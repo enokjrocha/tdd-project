@@ -1,0 +1,15 @@
+O TDD é uma técnica baseada em pequenos ciclos de repetição (para cada funcionalidade de um sistema, seu teste deve ser implementado antes da mesma). 
+Como desenvolvemos testes funcionais e de unidade, ele seguirá a seguinte forma:
+
+1 - Escrevemos um teste funcional.
+2 - Verificamos se o mesmo passa. Em caso negativo, implementamos o mínimo necessário para que o mesmo passe seguindo 
+um ciclo interno (também TDD):
+	
+	2.1: Implementamos um teste de unidade;
+	2.2: Enquanto o teste de unidade falhar, implementamos o mínimo necessário para que ele passe;
+	2.3: Verificamos se o código implementado necessita de refatoração. Em caso positivo aplicamos as boas práticas de programação.
+	Em caso negativo voltamos ao teste funcional em questão.
+
+3 - Assim que o teste funcional retornar um resultado positivo, verificamos se há a necessidade de uma refatoração de alguma funcionalidade. 
+Em caso negativo, escrevemos um novo teste funcional e repetimos o ciclo.
+Em caso positivo, voltamos ao ciclo interno do passo 2, refatorando a aplicação.
